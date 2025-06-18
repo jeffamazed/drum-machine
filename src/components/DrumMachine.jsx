@@ -69,7 +69,10 @@ function DrumMachine() {
         </div>
 
         <div className="controls-container">
-          <img src={mylogo} alt="jeffamazed logo" className="logo" />
+          {/* logo */}
+          <a href="https://github.com/jeffamazed" target="_blank">
+            <img src={mylogo} alt="jeffamazed logo" className="logo" />
+          </a>
           <div className="power-controls-container">
             <span>Power</span>
             <button
